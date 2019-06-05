@@ -10,6 +10,12 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
+/**
+ * @author fabioz
+ * 
+ * Classe responsável pela integração com serviços Rest.
+ *
+ */
 @RestController
 public class ApplicationController {
 	
@@ -46,7 +52,7 @@ public class ApplicationController {
 				return "Usuário inválido";
 			}
 		} catch (NamingException | IOException e) {
-			return "Usuário invalido";
+			return e.getMessage(); //"Usuário invalido";
 		} 
     }
 }

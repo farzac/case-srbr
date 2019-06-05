@@ -1,5 +1,10 @@
 package com.srbr.demo;
 
+/**
+ * @author fabioz
+ *
+ * POJO User
+ */
 public class User {
 
     private final String name;
@@ -18,6 +23,4 @@ public class User {
 	public String getPasswd() {
 		return passwd;
 	}
-
-    
 }

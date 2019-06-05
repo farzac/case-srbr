@@ -9,5 +9,4 @@ public class CaseSrbrApplication {
 	public static void main(String[] args) {
 		SpringApplication.run(CaseSrbrApplication.class, args);
 	}
-
 }
