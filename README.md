@@ -1,4 +1,4 @@
-											Case-SRBR
+						Case-SRBR
 
 
 
@@ -23,6 +23,7 @@ sudo chmod 777 mvnw
 Após checkout do projeto no github, será preciso pegar imagem do docher que contém o servidor LDAP
 
 docker run -i -t --net="host" zaccantte/ubuntu-16.04-case-srbr
+
 /etc/init.d/slapd start
 
 
